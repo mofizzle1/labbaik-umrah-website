@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website - With Logo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+            background-color: #f4f4f4; /* Light background for contrast */
+            color: #333;
+        }
+        .header {
+            padding: 20px;
+            background-color: #fff;
+            border-bottom: 1px solid #ddd;
+        }
+        .logo {
+            max-width: 180px; /* Adjust size as you like */
+            height: auto;
+            display: block; /* Ensures the image takes its own line */
+            margin: 0 auto 20px auto; /* Centers the logo and adds bottom margin */
+        }
+        h1 {
+            color: #222;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+        .content {
+            padding: 20px;
+        }
+        .footer {
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #eee;
+            border-top: 1px solid #ddd;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <!-- This is where your logo will go -->
+        <img src="path/to/your/new_logo_with_star.png" alt="Crescent Moon, Star, and Kaaba Logo" class="logo">
+        <h1>Welcome to Our Spiritual Journey</h1>
+    </div>
+
+    <div class="content">
+        <p>We are delighted to have you join us. Explore our services and learn more about our community.</p>
+        <p>This page features our unique logo, symbolizing guidance and faith, incorporated beautifully into the design.</p>
+        <p>Feel free to browse around and discover what we have to offer.</p>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2026 Your Website Name. All rights reserved.</p>
+    </div>
+</body>
+</html>
