@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <pattern id="calligraphy" x="0" y="0" width="20" height="8" patternUnits="userSpaceOnUse">
+      <line x1="2" y1="3" x2="9" y2="3" stroke="white" stroke-width="1.2" stroke-linecap="round"/>
+      <line x1="11" y1="3" x2="18" y2="3" stroke="white" stroke-width="0.7" stroke-linecap="round"/>
+      <line x1="3" y1="6" x2="17" y2="6" stroke="white" stroke-width="0.5" stroke-linecap="round"/>
+    </pattern>
+  </defs>
+
+  <!-- === MARBLE BASE === -->
+  <rect x="12" y="173" width="176" height="16" fill="white" stroke="#0d0d0d" stroke-width="2" rx="2"/>
+  <rect x="22" y="160" width="156" height="16" fill="white" stroke="#0d0d0d" stroke-width="2" rx="2"/>
+
+  <!-- === MAIN KAABA BODY === -->
+  <rect x="32" y="28" width="136" height="138" fill="#0d0d0d" rx="2"/>
+
+  <!-- Top cornice/cap -->
+  <rect x="26" y="22" width="148" height="12" fill="#0d0d0d" rx="2"/>
+  <rect x="28" y="24" width="144" height="8" fill="none" stroke="white" stroke-width="0.6" opacity="0.25" rx="1"/>
+
+  <!-- === KISWA BAND (decorative belt ~1/3 from top) === -->
+  <!-- Outer frame of belt -->
+  <rect x="32" y="58" width="136" height="34" fill="#0d0d0d" stroke="white" stroke-width="2"/>
+  <!-- Inner fine border -->
+  <rect x="35" y="61" width="130" height="28" fill="none" stroke="white" stroke-width="0.6" opacity="0.6"/>
+  <!-- Calligraphy-like repeating lines in belt -->
+  <rect x="36" y="62" width="128" height="26" fill="url(#calligraphy)"/>
+  <!-- Decorative diamond accents in band -->
+  <polygon points="70,75 75,68 80,75 75,82" fill="none" stroke="white" stroke-width="1" opacity="0.7"/>
+  <polygon points="100,75 105,68 110,75 105,82" fill="none" stroke="white" stroke-width="1" opacity="0.7"/>
+  <polygon points="130,75 135,68 140,75 135,82" fill="none" stroke="white" stroke-width="1" opacity="0.7"/>
+
+  <!-- === DOOR === -->
+  <!-- Door outer white frame -->
+  <rect x="69" y="100" width="62" height="92" fill="white" rx="3"/>
+  <!-- Door top arch: subtle rounded top suggestion -->
+  <ellipse cx="100" cy="100" rx="31" ry="6" fill="white"/>
+  <!-- Door inner dark face -->
+  <rect x="74" y="104" width="52" height="84" fill="#161616" rx="2"/>
+  <!-- Door outer decorative frame border -->
+  <rect x="71" y="102" width="58" height="88" fill="none" stroke="#0d0d0d" stroke-width="1.5" rx="2"/>
+
+  <!-- Door inscription plaque (top area) -->
+  <rect x="77" y="107" width="46" height="12" fill="none" stroke="white" stroke-width="0.8" rx="1" opacity="0.5"/>
+  <line x1="82" y1="111" x2="118" y2="111" stroke="white" stroke-width="0.6" opacity="0.4"/>
+
+  <!-- Door vertical centre split -->
+  <line x1="100" y1="122" x2="100" y2="183" stroke="white" stroke-width="0.8" opacity="0.35"/>
+  <!-- Door horizontal panel divide -->
+  <line x1="77" y1="152" x2="123" y2="152" stroke="white" stroke-width="0.8" opacity="0.35"/>
+
+  <!-- Door handles -->
+  <rect x="88" y="163" width="8" height="13" fill="white" rx="4" opacity="0.75"/>
+  <rect x="104" y="163" width="8" height="13" fill="white" rx="4" opacity="0.75"/>
+
+  <!-- === CORNER EDGE HIGHLIGHTS (subtle depth) === -->
+  <line x1="32" y1="28" x2="32" y2="166" stroke="white" stroke-width="0.5" opacity="0.12"/>
+  <line x1="168" y1="28" x2="168" y2="166" stroke="white" stroke-width="0.5" opacity="0.12"/>
+</svg>
